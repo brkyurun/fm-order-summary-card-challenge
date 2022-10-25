@@ -1,9 +1,10 @@
 import { Attribution } from "./components/Attribution";
+import { Card } from "./components/Card";
 
 function App() {
   return (
-    <div className="">
-      <h1 className="text-3xl text-pink-600">Hello</h1>
+    <div className="h-screen bg-pale-blue flex flex-col items-center justify-center px-5">
+      <Card />
       <Attribution />
     </div>
   );
