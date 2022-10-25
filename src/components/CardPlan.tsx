@@ -15,7 +15,7 @@ export function CardPlan({ planName, planPrice }: ICardPlan) {
       </div>
       <a
         href="#"
-        className="ml-auto text-purple-800 underline hover:no-underline text-sm font-bold"
+        className="ml-auto text-bright-blue hover:text-bright-blue/70 underline hover:no-underline text-sm font-bold"
       >
         Change
       </a>
